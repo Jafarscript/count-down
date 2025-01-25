@@ -1,10 +1,10 @@
-const days = document.querySelector('#days')
-const hours = document.querySelector('#hours')
-const minutes = document.querySelector('#minutes')
-const seconds = document.querySelector("#seconds")
+const days = document.querySelector('.days')
+const hours = document.querySelector('.hours')
+const minutes = document.querySelector('.minutes')
+const seconds = document.querySelector(".seconds")
 
 
-const target = new Date('2025-01-25T00:00:00').getTime()
+const target = new Date('2025-04-25T00:00:00').getTime()
 
 function countdown() {
     const current = new Date().getTime()
